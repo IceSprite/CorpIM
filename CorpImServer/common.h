@@ -1,0 +1,9 @@
+#pragma  once
+
+//用户管理
+enum{COL_USER_ID,COL_USER_NAME};
+const int COLUMN_WIDTH=100;//列宽
+
+//公告管理
+enum{COL_MESSAGE_ID,COL_MESSAGE_IS_PUBLISHED,COL_MESSAGE_TITLE,COL_MESSAGE_TIME};
+// CCommon 对话框

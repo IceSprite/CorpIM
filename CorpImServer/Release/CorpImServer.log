@@ -1,0 +1,34 @@
+﻿生成启动时间为 2014/2/17 16:14:37。
+     1>项目“D:\MFC Project\CorpIM\CorpImServer\CorpImServer.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“D:\MFC Project\CorpIM\Release\”。
+       InitializeBuildStatus:
+         正在创建“Release\CorpImServer.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\CorpImServer.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\CorpImServer.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CorpImServer.cpp CorpImServerDlg.cpp
+         CorpImServer.cpp
+         CorpImServerDlg.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\CorpImServer.res" CorpImServer.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\MFC Project\CorpIM\Release\CorpImServer.exe) 与 Linker 的 OutputFile 属性值(D:\MFC Project\CorpIM\bin\CorpImServer_Release.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(CorpImServer) 与 Linker 的 OutputFile 属性值(CorpImServer_Release)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         d:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\CorpImServer_Release.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\CorpImServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\MFC Project\CorpIM\Release\CorpImServer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\MFC Project\CorpIM\Release\CorpImServer.lib" /MACHINE:X86 Release\CorpImServer.res
+         Release\CorpImServer.obj
+         Release\CorpImServerDlg.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         CorpImServer.vcxproj -> D:\MFC Project\CorpIM\Release\CorpImServer.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\bin\CorpImServer_Release.exe;#1" /manifest Release\CorpImServer.exe.intermediate.manifest "d:\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\CorpImServer.unsuccessfulbuild”。
+         正在对“Release\CorpImServer.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\MFC Project\CorpIM\CorpImServer\CorpImServer.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.27

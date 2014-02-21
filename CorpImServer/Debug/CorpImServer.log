@@ -1,0 +1,55 @@
+﻿生成启动时间为 2014/2/20 16:23:46。
+     1>项目“D:\MFC Project\CorpIM\CorpImServer\CorpImServer.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\CorpImServer.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         d:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\CorpImServer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\CorpImServer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Analyser.cpp CdlgManageUsers.cpp CorpImServer.cpp CorpImServerDlg.cpp DataModule.cpp DataTransfer.cpp DlgGroupInfo.cpp DlgLogin.cpp DlgManageMessages.cpp DlgMessageInfo.cpp DlgSetSystem.cpp DlgUserInfo.cpp
+         Analyser.cpp
+     1>d:\mfc project\corpim\corpimserver\analyser.cpp(27): warning C4065: switch 语句包含“default”但是未包含“case”标签
+         正在生成代码...
+         正在编译...
+         DataTransfer.cpp
+         CorpImServerDlg.cpp
+         CorpImServer.cpp
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         DlgUserInfo.cpp
+         DlgSetSystem.cpp
+         DlgMessageInfo.cpp
+         DlgManageMessages.cpp
+         DlgLogin.cpp
+         DlgGroupInfo.cpp
+         DataModule.cpp
+         CdlgManageUsers.cpp
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\MFC Project\CorpIM\Debug\CorpImServer.exe) 与 Linker 的 OutputFile 属性值(D:\MFC Project\CorpIM\bin\CorpImServer_Debug.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(CorpImServer) 与 Linker 的 OutputFile 属性值(CorpImServer_Debug)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         d:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\CorpImServer_Debug.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\CorpImServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\MFC Project\CorpIM\Debug\CorpImServer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\MFC Project\CorpIM\Debug\CorpImServer.lib" /MACHINE:X86 Debug\CorpImServer.res
+         Debug\CorpImServer.exe.embed.manifest.res
+         Debug\Analyser.obj
+         Debug\CdlgManageUsers.obj
+         Debug\CorpImServer.obj
+         Debug\CorpImServerDlg.obj
+         Debug\DataModule.obj
+         Debug\DataTransfer.obj
+         Debug\DlgGroupInfo.obj
+         Debug\DlgLogin.obj
+         Debug\DlgManageMessages.obj
+         Debug\DlgMessageInfo.obj
+         Debug\DlgSetSystem.obj
+         Debug\DlgUserInfo.obj
+         Debug\stdafx.obj
+     1>Analyser.obj : error LNK2001: 无法解析的外部符号 "class std::vector<struct DATA_INFO *,class std::allocator<struct DATA_INFO *> > g_SendDatas" (?g_SendDatas@@3V?$vector@PAUDATA_INFO@@V?$allocator@PAUDATA_INFO@@@std@@@std@@A)
+     1>CorpImServerDlg.obj : error LNK2001: 无法解析的外部符号 "class std::vector<struct DATA_INFO *,class std::allocator<struct DATA_INFO *> > g_SendDatas" (?g_SendDatas@@3V?$vector@PAUDATA_INFO@@V?$allocator@PAUDATA_INFO@@@std@@@std@@A)
+     1>..\bin\CorpImServer_Debug.exe : fatal error LNK1120: 1 个无法解析的外部命令
+     1>已完成生成项目“D:\MFC Project\CorpIM\CorpImServer\CorpImServer.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.74
